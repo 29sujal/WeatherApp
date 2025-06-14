@@ -1,56 +1,88 @@
-```markdown
-# 🌦️ Weather App
+# 🌤️ Weather App
 
-A simple and stylish **Weather Application** built using **HTML, CSS, and JavaScript**, powered by the **OpenWeatherMap API**. This app allows users to check real-time weather conditions for any city across the globe.
+A clean, responsive **Weather Application** built with **HTML, CSS, and JavaScript**, using the [OpenWeatherMap API](https://openweathermap.org/api) to fetch real-time weather data for any city worldwide.
+
+---
 
 ## 🚀 Features
 
-- 🌍 Get current weather for any city
-- 🌡️ Temperature displayed in Celsius
-- 💧 Humidity and wind speed indicators
-- ⛅ Dynamic weather icons based on the forecast
-- 🚫 Graceful error handling for invalid city names
-- 📱 Responsive card layout
+* 🌍 Search for any city globally
+* 🌡️ Real-time temperature in Celsius
+* 💧 Displays humidity and wind speed
+* ⛅ Dynamic weather icons (sun, clouds, rain, etc.)
+* 🛑 Handles errors gracefully (e.g., invalid city name)
+* 📱 Mobile-responsive card layout
+
+---
 
 ## 📸 Preview
 
-![Weather App Screenshot](screenshot.png) <!-- You can add your own screenshot image and rename it -->
+> *You can add a screenshot here later for visual appeal.*
 
-## 🛠️ Technologies Used
+```html
+<!-- Replace with your actual screenshot -->
+![Weather App Screenshot](images/screenshot.png)
+```
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- [OpenWeatherMap API](https://openweathermap.org/api)
+---
 
-## 🔧 Setup Instructions
+## 🛠️ Tech Stack
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/weather-app.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd weather-app
-   ```
-3. Open `index.html` in your browser.
+* **HTML5** – page structure
+* **CSS3** – styling and responsive layout
+* **JavaScript (Vanilla)** – logic, API integration
+* **OpenWeatherMap API** – weather data source
 
-> ⚠️ **Note**: Replace the `apiKey` in the script with your own from [OpenWeatherMap](https://openweathermap.org/appid).
+---
 
-## 📂 Folder Structure
+## 🔧 Getting Started
+
+### 1. Clone the repo:
+
+```bash
+git clone https://github.com/29sujal/WeatherApp.git
+cd WeatherApp
+```
+
+### 2. Open `index.html` in your browser
+
+You can double-click it or open it through VS Code Live Server.
+
+---
+
+## ⚙️ Replace API Key
+
+The script uses the OpenWeatherMap API. You need to:
+
+1. Sign up at [openweathermap.org](https://openweathermap.org/) and get your free API key.
+2. In the `script.js` file, replace:
+
+```js
+const apiKey = "YOUR_API_KEY";
+```
+
+with:
+
+```js
+const apiKey = "your-real-api-key";
+```
+
+---
+
+## 📁 Project Structure
 
 ```
-weather-app/
-│
+WeatherApp/
 ├── index.html         # Main HTML file
-├── style.css          # Styling file
-├── images/            # Weather icons
-│   ├── clear.png
-│   ├── clouds.png
-│   ├── drizzle.png
-│   ├── humidity.png
-│   ├── mist.png
-│   ├── rain.png
-│   └── wind.png
-```
+├── style.css          # App styling
+├── script.js          # API and weather logic
+└── images/            # Weather icons
+    ├── clear.png
+    ├── clouds.png
+    ├── drizzle.png
+    ├── humidity.png
+    ├── mist.png
+    ├── rain.png
+    ├── snow.png
+    └── wind.png
 
