@@ -15,17 +15,6 @@ A clean, responsive **Weather Application** built with **HTML, CSS, and JavaScri
 
 ---
 
-## 📸 Preview
-
-> *You can add a screenshot here later for visual appeal.*
-
-```html
-<!-- Replace with your actual screenshot -->
-![Weather App Screenshot](images/screenshot.png)
-```
-
----
-
 ## 🛠️ Tech Stack
 
 * **HTML5** – page structure
